@@ -28,3 +28,9 @@ FirmwareUpdatr is a simple enough tool to use, but it's been a while since it wa
 FirmwareUpdatr has a few dependencies. Two of them, cocoaDialog and dfu-programmer, turned out to be the issue. The version of cocoaDialog bundled into the app no longer worked. Fortunately, the last beta seems to work, so I just swapped it out in the bundle.
 
 The version of dfu-programmer was also broken. To fix that took a little more work, since I had to compile a new version of that cli tool (with changes reflected in [my fork](https://github.com/stonehippo/dfu-programmer)). Once again, a little surgery on the FirmwareUpdater package, and I had a working tool again.
+
+## Additional resources
+
+- [RepRap Wiki: Printrboard](https://reprap.org/wiki/Printrboard)
+- [Printrbot Printrboard Github repo](https://github.com/Printrbot/printrboard)
+- [Printrbot Marlin and Printrboard Github repo](https://github.com/Printrbot/printrboardmodernmarlin)
